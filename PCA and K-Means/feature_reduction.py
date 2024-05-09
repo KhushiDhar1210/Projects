@@ -48,7 +48,7 @@ class PrincipleComponentAnalysis(FeatureReduction):
     def calc_variance_explained(self, eigen_values):
         '''Input: list of eigen values
            Output: list of normalized values corresponding to percentage of information an eigen value contains'''
-        '''Your code here'''
+        
         variance_explained = eigen_values / np.sum(eigen_values)
-        '''Stop Coding here'''
+        
         return variance_explained
