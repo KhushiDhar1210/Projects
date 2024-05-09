@@ -38,9 +38,7 @@ class GaussianDiscriminant(Discriminant):
         mu = self.params['mu']
         sigma= self.params['sigma']
         prior = self.params['prior']
-        '''Your code here'''
-  
-        '''Stop coding here'''
+        
 
 
 ''' Create our MV Discriminant Class'''
@@ -61,7 +59,7 @@ class MultivariateGaussian(Discriminant):
         
     def calc_discriminant(self, x):
         mu, sigma, prior = self.params['mu'], self.params['sigma'], self.params['prior']
-        '''Your code here'''
+        
         
         
         
